@@ -123,71 +123,71 @@ int main(){
             case 6:
                 if(buttonHeld())
                 {
-                    //disable cpu throttle tracking for this session
+                    //disable cpu throttle tracking for this session (HELD)
                 }
                 else
                 {
-                    //open cpu process manager and a time graph of CPU temperatures
+                    //open cpu process manager and a time graph of CPU temperatures (PRESSED)
                 }
                 break;
             case 5:
                 if(buttonHeld())
                 {
-
+                    //disable gpu throttle tracking for this session (HELD)
                 }
                 else
                 {
-                    //open gpu process manager and a time graph of GPU temperatures
+                    //open gpu process manager and a time graph of GPU temperatures (PRESSED)
                 }
                 break;
             case 4:
                 if(buttonHeld())
                 {
-
+                    //disable cpu utilization tracking for this session (HELD)
                 }
                 else
                 {
-                    //open cpu process manager and a time graph of CPU utilization
+                    //open cpu process manager and a time graph of CPU utilization (PRESSED)
                 }
                 break;
             case 3:
                 if(buttonHeld())
                 {
-
+                    //disable gpu utilization tracking for this session (HELD)
                 }
                 else
                 {
-                    //open gpu process manager and a time graph of GPU utilization
+                    //open gpu process manager and a time graph of GPU utilization (PRESSED)
                 }
                 break;
             case 2:
                 if(buttonHeld())
                 {
-
+                    //disable dropped frame tracking for this session (HELD)
                 }
                 else
                 {
-                    //open time graph of dropped frames
+                    //open time graph of dropped frames (PRESSED)
                 }
                 break;
             case 1:
                 if(buttonHeld())
                 {
-
+                    //open control panel/menu (HELD)
                 }
                 else
                 {
-                    //open control panel/menu
+                    //enable/disable performance tracking (PRESSED)
                 }
                 break;
             default:
                 if(buttonHeld())
                 {
-
+                    //enable/disable performance tracking (HELD)
                 }
                 else
                 {
-                    //enable/disable performance tracking
+                    //open control panel/menu (PRESSED)
                 }
                 break;
         }
