@@ -120,11 +120,75 @@ int main(){
         //use the state of the button to determine the action of pressing it
         switch (buttonState)
         {
-            case /* constant-expression */:
-                /* code */
+            case 6:
+                if(buttonHeld())
+                {
+                    //disable cpu throttle tracking for this session
+                }
+                else
+                {
+                    //open cpu process manager and a time graph of CPU temperatures
+                }
                 break;
-        
+            case 5:
+                if(buttonHeld())
+                {
+
+                }
+                else
+                {
+                    //open gpu process manager and a time graph of GPU temperatures
+                }
+                break;
+            case 4:
+                if(buttonHeld())
+                {
+
+                }
+                else
+                {
+                    //open cpu process manager and a time graph of CPU utilization
+                }
+                break;
+            case 3:
+                if(buttonHeld())
+                {
+
+                }
+                else
+                {
+                    //open gpu process manager and a time graph of GPU utilization
+                }
+                break;
+            case 2:
+                if(buttonHeld())
+                {
+
+                }
+                else
+                {
+                    //open time graph of dropped frames
+                }
+                break;
+            case 1:
+                if(buttonHeld())
+                {
+
+                }
+                else
+                {
+                    //open control panel/menu
+                }
+                break;
             default:
+                if(buttonHeld())
+                {
+
+                }
+                else
+                {
+                    //enable/disable performance tracking
+                }
                 break;
         }
     }
